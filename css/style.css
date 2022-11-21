@@ -1,7 +1,8 @@
 header {
     width: 100%;
-    height: 700px;
+    height: 800px;
     background-color: #b4d0e7;
+    
 }
 
 .nav-flex {
@@ -18,7 +19,12 @@ header {
 
 h1 {
     font-weight: 700;
-    font-size: 3em;
+    font-size: 4em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.5em;
 }
 
     
@@ -44,8 +50,66 @@ h1 {
 }
 
 .jumbo {
-    width:800px;
+    width:900px;
 
     
 }
 
+.cerchio {
+ height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid grey;
+ 
+}
+
+.outline {
+    outline-offset: -5px;
+    outline: 5px solid  #0061ff;
+  
+}
+.flex-circles {
+    height: 30px;
+    display: flex;
+    align-items: baseline;
+ 
+}
+
+.flex-inside-cards {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+h5 {
+    text-align: center;
+}
+
+
+
+.flex-circles-2 {
+    display: flex;
+    align-items: center;
+}
+
+.flex-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 33%;
+    border: 1px solid grey;
+}
+
+
+.small-hr {
+    width:15%;
+    text-align:left;
+
+}
