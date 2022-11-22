@@ -50,7 +50,7 @@ h2 {
 }
 
 .jumbo {
-    width:900px;
+    width:100%;
 
     
 }
@@ -79,9 +79,9 @@ h2 {
 
 .flex-inside-cards {
 
-display: flex;
-flex-direction: column;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -107,9 +107,94 @@ h5 {
     border: 1px solid grey;
 }
 
+.bottom-card {
+    width: 100%;
+    border: 1px solid grey;
+}
+
+.bottom-card-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-card-left {
+    display: flex;
+    flex-direction: column;
+}
 
 .small-hr {
     width:15%;
     text-align:left;
 
 }
+
+.partner-flex {
+    display: flex;
+
+}
+
+.partner {
+    width: 500px
+}
+
+
+.flex-operations {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 70px;
+}
+
+.operation-card {
+    width: calc(100% / 3);
+}
+
+.operation-card > img {
+    width: 313px; 
+
+    
+}
+
+.sponsor {
+    display: flex;
+    
+}
+
+
+.big-square {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    display: flex; 
+    flex-wrap: wrap;
+    
+} 
+
+.small-square {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    
+    
+}
+
+.small-square > img {
+    
+    
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+       
+}
+
+.flex-start-trial {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

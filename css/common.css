@@ -9,9 +9,6 @@ body {
 }
 
 
-.padding-general-10 {
-    padding: 10px;
-}
 
 
 a {
@@ -74,6 +71,10 @@ li {
     margin-bottom: 75px;
 } 
 
+.margin-bottom-150 {
+    margin-bottom: 150px;
+}
+
 
 .margin-right-75{
     margin-right: 75px;
@@ -86,4 +87,64 @@ li {
 
 .margin-left-30 {
     margin-left: 30px;
+}
+
+
+
+
+.padding-general-10 {
+    padding: 10px;
+}
+
+
+.padding-general-20 {
+    padding: 20px;
+}
+
+
+
+
+
+.margin-general-20 {
+    margin: 20px;
+}
+
+
+
+
+
+
+
+.bg-color-desi {
+    background-color: #a2d39b ;
+}
+
+.bg-color-asu {
+    background-color:  #61082b;
+}
+
+
+.bg-color-uf {
+    background-color: #0093ce ;
+}
+
+.bg-color-topps {
+    background-color:  #ff1c1c;
+}
+
+.bg-color-wbr {
+    background-color: #d5001f;
+
+}
+
+.bg-color-hearst {
+    background-color:  #b4d0e7;
+}
+
+.bg-color-lp {
+    background-color: #0d2481 ;
+}
+
+.bg-color-cc {
+    background-color: #ffd830 ;
 }
