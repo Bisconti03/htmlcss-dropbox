@@ -198,3 +198,34 @@ h5 {
     align-items: center;
 }
 
+
+
+.flex-faq {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.flex-faq-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-footer-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #000000 ;
+}
+
+
+

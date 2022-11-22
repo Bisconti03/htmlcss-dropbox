@@ -30,6 +30,24 @@ li {
 }
 
 
+i {
+    padding-right: 30px;
+}
+
+
+.border-top {
+    border-top: 1px solid black;
+}
+
+.border-bottom {
+    border-bottom: 1px solid black;
+}
+
+
+.flex-footer-cell > p {
+    color: white;
+}
+
 
 
 
@@ -101,6 +119,10 @@ li {
     padding: 20px;
 }
 
+.padding-top-bottom-25 {
+    padding: 25px 0;
+}
+
 
 
 
@@ -147,4 +169,8 @@ li {
 
 .bg-color-cc {
     background-color: #ffd830 ;
+}
+
+.white {
+    color: white;
 }
