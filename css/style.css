@@ -17,6 +17,8 @@ header {
 
 }
 
+
+
 h1 {
     font-weight: 700;
     font-size: 4em;
@@ -46,13 +48,17 @@ h2 {
 .flex-jumbo-left {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 45%;
 }
 
 .jumbo {
     width:100%;
 
     
+}
+
+.arrow-down {
+    font-size: 3em;
 }
 
 .cerchio {
@@ -99,7 +105,7 @@ h5 {
 .flex-cards {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
 }
 
 .card {
@@ -226,6 +232,7 @@ h5 {
 footer {
     background-color: #000000 ;
 }
+
 
 
 
