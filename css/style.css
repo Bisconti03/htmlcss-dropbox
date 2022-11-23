@@ -9,7 +9,7 @@ header {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 80px;
+     height: 80px;
     background-color:#ffffff ;
     justify-content: space-between;
     
@@ -29,14 +29,21 @@ h2 {
     font-size: 2.5em;
 }
 
+nav > a:hover {
+    border-bottom: 1px solid black;
+}
+
     
 
 
 .left-nav {
     display: flex;
     align-items:center;
+    height: 100%;
    
 }
+
+
 
 .flex-jumbo {
     display: flex;
@@ -52,7 +59,7 @@ h2 {
 }
 
 .jumbo {
-    width:100%;
+    width:90%;
 
     
 }
@@ -106,12 +113,15 @@ h5 {
     display: flex;
     justify-content: space-between;
     
+    
 }
 
 .card {
-    width: 33%;
+    width: calc(33% - 20px);
     border: 1px solid grey;
 }
+
+
 
 .bottom-card {
     width: 100%;
@@ -153,7 +163,7 @@ h5 {
 }
 
 .operation-card {
-    width: calc(100% / 3);
+    width: calc(33% - 20px);
 }
 
 .operation-card > img {
@@ -192,9 +202,16 @@ h5 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 
     
        
+}
+
+.container-big-square {
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 45px;
 }
 
 .flex-start-trial {
