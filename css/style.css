@@ -29,8 +29,13 @@ h2 {
     font-size: 2.5em;
 }
 
-nav > a:hover {
-    border-bottom: 1px solid black;
+h3 {
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
+.custom-nav:not(img):hover {
+    border-bottom: 2px solid black;
 }
 
     
@@ -41,6 +46,12 @@ nav > a:hover {
     align-items:center;
     height: 100%;
    
+}
+.right-nav {
+    display: flex;
+    align-items:center;
+    height: 100%;
+
 }
 
 
@@ -131,12 +142,21 @@ h5 {
 .bottom-card-flex {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
 }
 
 .bottom-card-left {
     display: flex;
     flex-direction: column;
+    width: 70%;
+}
+
+.bottom-card-right {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+
+    
 }
 
 .small-hr {
@@ -151,7 +171,17 @@ h5 {
 }
 
 .partner {
-    width: 500px
+    width: 100%;
+}
+
+.partner-flex-left {
+    width: 65%;
+
+}
+
+.partner-flex-right {
+    width: 35%;
+    
 }
 
 
@@ -228,6 +258,9 @@ h5 {
     flex-direction: column;
 
 }
+.flex-faq2 > i {
+    padding-right: 30px;
+}
 
 .flex-faq-2 {
     display: flex;
@@ -245,6 +278,15 @@ h5 {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.flex-footer-cell > p {
+    margin-bottom: 20px;
+}
+
+.flex-footer-cell > h3 {
+    margin-bottom: 30px;
+}
+
 
 footer {
     background-color: #000000 ;
